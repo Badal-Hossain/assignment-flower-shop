@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* main section start here */
 .section-1 {
     background-color: #FCEEF1;
@@ -23,7 +24,7 @@
     margin-top: 110px;
 }
 h1 {
-    font-size: 55px;
+    font-size: 53px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     line-height: 1.2;
@@ -190,7 +191,6 @@ h1 {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.63);
 }
-
 /* featured-section ends here */
 
 /* deal section starts here */
@@ -238,5 +238,49 @@ h1 {
     text-align: center;
     margin-top: 70px;
 }
-
 /* deal section ends here */
+
+/* instagram section starts here */
+.instagram-section {
+    width: 100%;
+    height: 100vh;
+}
+.instagram-content {
+    width: 35%;
+    margin:auto;
+    text-align: center;
+    padding-top: 85px;
+}
+.instagram-content h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.91);
+}
+.instagram-content p {
+    color: rgba(0, 0, 0, 0.576);
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+.instagram-flowers {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-1 {
+    width: 20%;
+    float: left;
+}
+.image-2 {
+    width: 20%;
+    float: left;
+}
+.image-3 {
+    width: 20%;
+    float: left;
+}
+.image-4 {
+    width: 20%;
+    float: left;
+}
+/* instagram section ends here */
