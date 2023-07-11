@@ -243,7 +243,7 @@ h1 {
 /* instagram section starts here */
 .instagram-section {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 .instagram-content {
     width: 35%;
@@ -284,3 +284,64 @@ h1 {
     float: left;
 }
 /* instagram section ends here */
+
+/* subscrib section starts here */
+
+.subscribe-section {
+    width: 80%;
+    height: 45vh;
+    margin: auto;
+    background-image: url(./assets/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll
+}
+.subscribe-content {
+    width: 35%;
+    margin:auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.subscribe-input {
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+.subscribe-content h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.91);
+}
+.subscribe-content p {
+    color: rgba(0, 0, 0, 0.576);
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+.subscribe-input input {
+    padding: 15px 235px 15px 10px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.subscribe-input input:focus {
+    outline: none;
+}
+.subscribe-input button {
+    margin-left: 5px;
+    padding: 12px 25px;
+    background-color: #E55473;
+    color: white;
+    border: transparent solid 2px ;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.subscribe-input button:hover {
+    background-color: rgb(176, 158, 158);
+    color: black;
+    border: 2px solid #E55473;
+    transition: .3s ease;
+}
+
+/* subscrib section starts here */
