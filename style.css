@@ -62,7 +62,7 @@ h1 {
 /* featured-section strts here */
 .featured-section {
     width: 100%;
-    height: 100vh;
+    height: 170vh;
 }
 .featured-content {
     width: 34%;
@@ -139,5 +139,54 @@ h1 {
     color: rgba(0, 0, 0, 0.818);
 }
 
+.delivery {
+    width: 76%;
+    height: 20%;
+    background-color: #F4F4F4;
+    margin: auto;
+    margin-top: 100px; 
+    border-radius: 5px;
+}
+
+.collect {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.collect img {
+    width: 57px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.fresh-flowers {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+}
+.fresh-flowers img {
+    width: 57px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.support {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.support img {
+    width: 57px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.delivery p {
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.63);
+}
 
 /* featured-section ends here */
