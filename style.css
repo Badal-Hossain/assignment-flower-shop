@@ -1,8 +1,10 @@
+/* global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* main section start here */
 .section-1 {
     background-color: #FCEEF1;
@@ -52,12 +54,12 @@ h1 {
     width: 45%;
     float: left;
     margin-left: 50px;
-    /* margin-top: 15px; */
 }
 .main-section-flower > img {
     background-color: #D9D9D9;
 }
 /* main section ends here */
+
 
 /* featured-section strts here */
 .featured-section {
@@ -133,10 +135,10 @@ h1 {
 .featured-img p {
     text-align: center;
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(0, 0, 0, 0.818);
+    color: rgba(0, 0, 0, 0.704);
 }
 
 .delivery {
@@ -190,3 +192,51 @@ h1 {
 }
 
 /* featured-section ends here */
+
+/* deal section starts here */
+.deal-section {
+    width: 100%;
+    height: 70vh;
+    background-color: #FEF6F8;
+}
+.deal-content {
+    width: 35%;
+    float: left;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 170px;
+}
+.deal-content h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.deal-content strong {
+    color: #E55473;
+}
+.deal-content p {
+    margin: 25px 0;
+    color: rgba(0, 0, 0, 0.614);
+}
+.deal-content button {
+    padding: 12px 25px;
+    background-color: #E55473;
+    color: white;
+    border: transparent solid 2px ;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.deal-content button:hover {
+    background-color: rgb(176, 158, 158);
+    color: black;
+    border: 2px solid #E55473;
+    transition: .3s ease;
+}
+.deal-image {
+    width: 35%;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* deal section ends here */
